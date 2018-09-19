@@ -6,7 +6,10 @@ namespace TestingConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Universe!");
+
+            // Keeps the console window from closing immediately, waits for user input.
+            Console.Read();
         }
     }
 }
